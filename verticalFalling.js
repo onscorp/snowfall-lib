@@ -30,7 +30,7 @@ class VerticalFalling {
     };
     window.addEventListener("resize", this._onResize);
 
-    this.maxFlakes = options.maxFlakes || 50;
+    this.maxFlakes = options.maxFlakes || 70;
     this.minSize = options.minSize || 20;
     this.maxSize = options.maxSize || 40;
     this.minSpeed = options.minSpeed || 6;
@@ -170,3 +170,4 @@ class VerticalFalling {
     if (this._onResize) window.removeEventListener("resize", this._onResize);
   }
 }
+
