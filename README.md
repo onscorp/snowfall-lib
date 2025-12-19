@@ -11,3 +11,20 @@
 ```html
 <link rel="stylesheet" href="https://onscorp.github.io/falling-effects/verticalFalling.css">
 <script src="https://onscorp.github.io/falling-effects/verticalFalling.js"></script>
+
+### 1️⃣ `</body>` 태그 바로 위에 아래 코드를 추가
+```html
+<script>
+window.addEventListener('load', function () {
+  new VerticalFalling({
+    images: [
+      "snow/snow_1.png",
+      "snow/snow_2.png",
+      "snow/snow_3.png",
+      "snow/snow_4.png"
+    ]
+  });
+});
+</script>
+
+
